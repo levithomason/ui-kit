@@ -1,0 +1,19 @@
+{
+  "name": "ui-kit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp",
+    "build:html": "gulp build:html",
+    "clean:html": "gulp clean:html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-htmlmin": "^2.0.0",
+    "run-sequence": "^1.2.1"
+  }
+}
