@@ -4,16 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "gulp",
+    "start": "gulp",
     "build:html": "gulp build:html",
-    "clean:html": "gulp clean:html"
+    "build:styles": "gulp build:styles",
+    "clean:html": "gulp clean:html",
+    "serve": "gulp serve"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "del": "^2.2.0",
     "gulp": "^3.9.1",
+    "gulp-connect": "^4.1.0",
     "gulp-htmlmin": "^2.0.0",
+    "gulp-sass": "^2.3.2",
     "run-sequence": "^1.2.1"
   }
 }
